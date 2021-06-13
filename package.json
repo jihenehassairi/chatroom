@@ -1,7 +1,6 @@
 
 
 {
-  "homepage" :"http://jihenehassairi.github.io/chatroom" ,
   "name": "superchat",
   "version": "0.1.0",
   "private": true,
