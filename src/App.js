@@ -113,7 +113,7 @@ function ChatMessage(props){
   const messageClass = uid === auth.currentUser.uid ? 'sent' : 'reveived';
   return( <>
     <div className ={`message ${messageClass}`}>
-      <img src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'}/>
+      <img alt ="image" src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'}/>
       <p>{text}</p>
     </div> 
     </>
